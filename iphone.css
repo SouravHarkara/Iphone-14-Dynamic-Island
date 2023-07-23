@@ -49,7 +49,7 @@ img{
     transform: translateX(-50%);
 }
 .iphone:hover .dynamic{
-    animation: big-bar 2s 1.5s ease-in-out ;
+    animation: big-bar 2.5s 1.10s ease-in-out ;
 }
 .profile{
     position: absolute;
@@ -65,7 +65,7 @@ img{
     opacity: 0;
 }
 .iphone:hover .dynamic .profile{
-    animation: content 1.9s 1.5s ease-in-out;
+    animation: content 2.3s 1.5s ease-in-out;
 }
 .profile img{
     object-fit: cover;
@@ -82,7 +82,7 @@ img{
     opacity: 0;
 }
 .iphone:hover .dynamic .profile-name{
-    animation: content 1.9s 1.5s ease-in-out;
+    animation: content 2.3s 1.5s ease-in-out;
 }
 .call-attend{
     position: absolute;
@@ -99,7 +99,7 @@ img{
     opacity: 0;
 }
 .iphone:hover .dynamic .call-attend{
-    animation: content 1.9s 1.5s ease-in-out;
+    animation: content 2.3s 1.5s ease-in-out;
 }
 .call-hangup i{
    position: absolute;
@@ -113,7 +113,7 @@ img{
     opacity: 0;
 }
 .iphone:hover .dynamic .call-hangup i{
-    animation: content 1.9s 1.5s ease-in-out;
+    animation: content 2.3s 1.5s ease-in-out;
 }
 .call-hangup::before{
     content: '';
